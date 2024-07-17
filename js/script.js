@@ -80,6 +80,5 @@ function calculateAverage() {
     const finalAverage = totalPercentage === 100 ? total : 0;
 
     document.getElementById('average').textContent = average.toFixed(2);
-    document.getElementById('final-average').textContent = finalAverage.toFixed(2);
 }
 
